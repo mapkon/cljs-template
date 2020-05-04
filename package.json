@@ -1,12 +1,12 @@
 {
-   "name": "shadow-cjs-template",
+   "name": "arborescence",
    "version": "1.0.0",
-   "description": "A simple template for my shadow-cljs experiments",
+   "description": "Neil Menne will add this",
    "main": "index.js",
    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "tw": "npx tailwind build tw/style.css -o target/css/main.css",
-      "watch:css": "onchange 'tw/*css' -- npm run tw"
+      "start": "shadow-cljs watch arborescence",
+      "watch:css": "onchange 'tw/*css' -- npm run tw",
+      "tw": "npx tailwind build tw/style.css -o target/css/main.css"
    },
    "repository": {
       "type": "git",
