@@ -7,7 +7,7 @@
    [:h1 "This is a comment"]])
 
 (defn mount [c]
-  (r/render-component [c] (.getElementById js/document "app")))
+  (r/render-component [c] (.getElementById js/document "arborescence")))
 
 (defn reload! []
   (mount main-component)
