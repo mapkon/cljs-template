@@ -1,2 +1,6 @@
 node_modules
 .shadow-cljs
+
+public/main.js
+public/cljs-runtime
+public/manifest.edn
