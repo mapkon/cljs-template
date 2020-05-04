@@ -11,7 +11,7 @@
 
 (defn reload! []
   (mount main-component)
-  (print "Hello reload!"))
+  (print "App reloaded successfully after edit change"))
 
 (defn main! []
   (mount main-component)
