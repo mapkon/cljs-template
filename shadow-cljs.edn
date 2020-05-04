@@ -8,10 +8,10 @@
   [com.taoensso/timbre "4.10.0"]]
 
  :dev-http {8080 "target/"}
- :builds {:arborescence {:output-dir "target/"
+ :builds {:arborescence {:output-dir "public/"
                          :asset-path "."
                          :target :browser
                          :modules {:main {:init-fn main/main!}}
                          :devtools {:after-load main/reload!
-                                    :http-root "target"
+                                    :http-root "public"
                                     :http-port 8080}}}}
