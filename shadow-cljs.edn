@@ -8,7 +8,7 @@
   [org.clojure/core.async "0.4.500"]]
 
  :dev-http {8080 "target/"}
- :builds {:arborescence {:output-dir "public/"
+ :builds {:cljs-template {:output-dir "public/"
                          :asset-path "."
                          :target :browser
                          :modules {:main {:init-fn main/main!}}

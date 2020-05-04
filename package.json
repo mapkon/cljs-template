@@ -1,12 +1,11 @@
 {
-   "name": "arborescence",
+   "name": "cljs-template",
    "version": "1.0.0",
-   "description": "Neil Menne will add this",
-   "main": "index.js",
+   "description": "TODO: Add description",
    "scripts": {
-      "start": "shadow-cljs watch arborescence",
+      "start": "shadow-cljs watch cljs-template",
       "watch:css": "onchange 'tw/*css' -- yarn run tw",
-      "build": "yarn run tw && shadow-cljs compile arborescence",
+      "build": "yarn run tw && shadow-cljs compile cljs-template",
       "tw": "npx tailwind build tw/style.css -o public/css/main.css"
    },
    "repository": {

@@ -14,6 +14,7 @@ Ensure that the following are installed, preferably as global dependencies:
 
 On first install:
 
+`yarn install`
 `yarn run build`
 
 Then:
