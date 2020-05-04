@@ -1,2 +1,3 @@
-* shadow-cjs-template
-A simple template for my shadow-cljs experiments
+arborescence -
+
+Neil Menne will add requisite awesome documentation, when he feels like it
