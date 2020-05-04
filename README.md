@@ -12,5 +12,13 @@ Ensure that the following are installed, preferably as global dependencies:
 
 ## To Run ##
 
+On first install:
+
+`yarn run build`
+
+Then:
+
 `yarn run start`
+
+Happy coding
 

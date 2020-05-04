@@ -4,8 +4,9 @@
    "description": "Neil Menne will add this",
    "main": "index.js",
    "scripts": {
+      "start": "shadow-cljs watch arborescence",
       "watch:css": "onchange 'tw/*css' -- yarn run tw",
-      "start": "yarn run tw && shadow-cljs watch arborescence",
+      "build": "yarn run tw && shadow-cljs compile arborescence",
       "tw": "npx tailwind build tw/style.css -o public/css/main.css"
    },
    "repository": {
