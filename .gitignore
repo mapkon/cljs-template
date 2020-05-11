@@ -2,7 +2,5 @@
 node_modules
 
 # public folder stuff (it is generated)
+public/js/
 public/css/
-public/main.js
-public/cljs-runtime
-public/manifest.edn
