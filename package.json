@@ -4,10 +4,10 @@
    "description": "TODO: Add description",
    "scripts": {
       "init": "yarn install && yarn run build",
+      "start": "shadow-cljs watch cljs-template",
       "watch:css": "onchange 'tw/*css' -- yarn run tw",
       "build": "yarn run tw && shadow-cljs compile cljs-template",
-      "tw": "npx tailwind build tw/style.css -o public/css/main.css",
-      "start": "shadow-cljs watch cljs-template && yarn run watch:css"
+      "tw": "npx tailwind build tw/style.css -o public/css/main.css"
    },
    "repository": {
       "type": "git",
