@@ -6,7 +6,7 @@
  [[reagent "0.10.0"]
   [org.clojure/core.async "0.4.500"]]
 
- :dev-http {8080 "target/"}
+ :dev-http {8080 "public/"}
  :builds {:cljs-template {:asset-path "."
                           :output-dir "public/js"
                           :target :browser
