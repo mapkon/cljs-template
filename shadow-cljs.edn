@@ -10,7 +10,7 @@
  :builds {:cljs-template {:asset-path "."
                           :output-dir "public/js"
                           :target :browser
-                          :modules {:main {:init-fn main/main!}}
-                          :devtools {:after-load main/reload!
+                          :modules {:core {:init-fn core/main!}}
+                          :devtools {:after-load core/reload!
                                      :http-root "public"
                                      :http-port 8080}}}}

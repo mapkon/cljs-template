@@ -1,8 +1,8 @@
-(ns main
+(ns core
   (:require [reagent.dom :as rdom]
             [cljs.core.async :refer (chan put! <! go go-loop timeout)]))
 
-(defn main-component []
+(defn home-component []
   [:div
    [:h1 "TODO: Add more components here."]])
 
@@ -11,9 +11,9 @@
   (.getElementById js/document "app")))
 
 (defn main! []
-  (mount main-component)
+  (mount home-component)
   (print "I don't do much but I am waiting for yer"))
 
 (defn reload! []
-  (mount main-component)
+  (mount home-component)
   (print "App reloaded successfully mutation"))
