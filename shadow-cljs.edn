@@ -7,10 +7,10 @@
   [org.clojure/core.async "0.4.500"]]
 
  :dev-http {8080 "target/"}
- :builds {:cljs-template {:output-dir "public/js"
-                         :asset-path "/js"
-                         :target :browser
-                         :modules {:main {:init-fn main/main!}}
-                         :devtools {:after-load main/reload!
-                                    :http-root "public"
-                                    :http-port 8080}}}}
+ :builds {:cljs-template {:asset-path "."
+                          :output-dir "public/js"
+                          :target :browser
+                          :modules {:main {:init-fn main/main!}}
+                          :devtools {:after-load main/reload!
+                                     :http-root "public"
+                                     :http-port 8080}}}}
