@@ -1,6 +1,5 @@
 (ns core
-  (:require [reagent.dom :as rdom]
-            [cljs.core.async :refer (chan put! <! go go-loop timeout)]))
+  (:require [reagent.dom :as rdom]))
 
 (defn home-component []
   [:div
